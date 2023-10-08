@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix</title>
+    <!--CSS-->
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" type="text/css" href="http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="shortcut icon" href="./midia/netflix.png" type="image/x-icon">
+    <!-- icons -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <!--Jquery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- JavaScript-->
+    <script type="text/javascript" src="http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js" defer></script>
+    <script src="js/main.js" defer></script>
+    
+</head>
+<body>
+    <section class="bg-series">
+        <div class="gradient">
+            <header>
+                <div class="container">
+                    <div class="top">
+                        <img class="logo" src="midia/logo.png" alt="">
+                        <nav>
+                            <a href="#" style="color: black;">Home</a>
+                            <a href="#tv" style="color: black;">TV Shows</a>
+                            <a href="#movie" style="color: black;">Movies</a>
+                            <a href="#watchlist" style="color: black;">My List</a>
+                        </nav>
+                    </div>
+            
+                    <div class="icons">
+                        <ul class="menu">
+                            <li><img src="midia/search.png" alt=""></li>
+                            <li><img src="midia/bell.png" alt=""></li>
+                            <li><a href="../Profile/profiles.html"><img src="./midia/ProfilePicture-1.png" alt="profile" width="30" height="50"></a></li>
+                            <li> <a href="../Profile/profiles.html"> <b style="color: white;position: relative;top: -4px;">&#8964;</b></a><li> 
+                        </ul>
+                    </div>
+                </div>
+
+            </header>
+
+            <main>
+                <div class="container">
+                    <div class="title-video">
+                        <img src="./midia/breaking-bad-logo-vector.svg">
+                    </div>
+                    <div class="text-video">
+                        <p>Diagnosed with terminal lung cancer, a high school chemistry teacher resorts to cooking and selling methamphetamine to provide for his family.
+                        </p>
+                    </div>
+                    <div class="buttons">
+                        <button class="play"><i class="fas fa-play"></i>Play Now</button>
+                        <button class="i"><i class="fas fa-info-circle"></i>More Info</button>
+                    </div>
+                </div>
+            </main>
+
+            <section class="category">
+                <h2 class="container" style="font-size: 25px;font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;">Trending Now</h2>
+                <div class="slide">
+                    <img  class="slide-single" src="midia/photo/you.jpg" alt="">
+                    <img  class="slide-single" src="midia/photo/witcher.jpg" alt="">
+                    <img  class="slide-single" src="midia/emalta/friends.jpg" alt="">
+                    <img  class="slide-single" src="midia/photo/rag.jpg" alt="">
+                    <img  class="slide-single" src="midia/photo/jujutsu.webp" alt="">
+                    <!-- <img  class="slide-single" src="midia/photo/narco.jpg" alt="">
+                    <img  class="slide-single" src="midia/emalta/tvd.jpg" alt="">
+                    <img  class="slide-single" src="midia/emalta/bigbang.jpg" alt=""> -->
+                </div>
+
+            <div class="scrolling">
+                <img class="arrow-prev" src="midia/arrow-prev.png" alt="">
+                <img class="arrow-next" src="midia/arrow-next.png" alt="">
+            </div>
+                
+            </section>
+
+            <section class="category">
+                <h2 id="tv" class="container" style="font-size: 25px;font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;">Movies</h2>
+                <div class="slide">
+                    <img  class="slide-single" src="midia/photo/extract.jpg" alt="">
+                    <img  class="slide-single" src="midia/photo/bullet.webp" alt="">
+                    <img  class="slide-single" src="midia/photo/heart.jpg" alt="">
+                    <img  class="slide-single" src="midia/photo/inception.webp" alt="">
+                    <img  class="slide-single" src="midia/photo/f9.webp" alt="">
+                    <!-- <img  class="slide-single" src="midia/photo/troll.jpg" alt="">
+                    <img  class="slide-single" src="midia/photo/adam.jpg" alt="">
+                    <img  class="slide-single" src="midia/photo/lust.jpg" alt=""> -->
+                </div>
+
+                <div class="scrolling">
+                    <img class="arrow-prev" src="midia/arrow-prev.png" alt="">
+                    <img class="arrow-next" src="midia/arrow-next.png" alt="">
+                </div>
+            </section>
+
+            <section class="category">
+                <h2 id="movie" class="container" style="font-size: 25px;font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;">TV Shows</h2>
+                <div class="slide">
+                    <img  class="slide-single" src="midia/photo/money.jpg" alt="">
+                    <img  class="slide-single" src="midia/photo/luci.jpg" alt="">
+                    <img  class="slide-single" src="midia/netflix/st.jpg" alt="">
+                    <img  class="slide-single" src="midia/netflix/se.jpg" alt="">
+                    <img  class="slide-single" src="midia/photo/peaky.jpg" alt="">
+                    <!-- <img  class="slide-single" src="midia/netflix/emily.jpeg" alt="">
+                    <img  class="slide-single" src="midia/netflix/tua.jpg" alt="">
+                    <img  class="slide-single" src="midia/netflix/sense.jpg" alt=""> -->
+                </div>
+
+                <div class="scrolling">
+                    <img class="arrow-prev" src="midia/arrow-prev.png" alt="">
+                    <img class="arrow-next" src="midia/arrow-next.png" alt="">
+                </div>
+            </section>
+
+            <section class="category">
+                <h2 id="watchlist" class="container" style="font-size: 25px;font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;">WatchList</h2>
+                <div class="slide">
+                    <img  class="slide-single" src="midia/photo/bb.webp" alt="">
+                    <img  class="slide-single" src="midia/photo/walking.webp    " alt="">
+                    <img  class="slide-single" src="midia/photo/dark.jpg" alt="">
+                    <img  class="slide-single" src="midia/photo/13.jpg" alt="">
+                    <img  class="slide-single" src="midia/photo/sandman.jpg" alt="">
+                    <!-- <img  class="slide-single" src="midia/photo/nhie.jpg" alt="">
+                    <img  class="slide-single" src="midia/photo/locke.jpg" alt="">
+                    <img  class="slide-single" src="midia/photo/squid.jpg" alt=""> -->
+                </div>
+
+                <div class="scrolling">
+                    <img class="arrow-prev" src="midia/arrow-prev.png" alt="">
+                    <img class="arrow-next" src="midia/arrow-next.png" alt="">
+                </div>
+            </section>
+
+            <section class="category">
+                <h2 class="container" style="font-size: 25px;font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;">Anime</h2>
+                <div class="slide">
+                    <img  class="slide-single" src="midia/photo/demon.webp" alt="">
+                    <img  class="slide-single" src="midia/photo/death note.webp" alt="">
+                    <img  class="slide-single" src="midia/photo/tokyo.webp" alt="">
+                    <img  class="slide-single" src="midia/photo/cyber.jpg" alt="">
+                    <img  class="slide-single" src="midia/photo/naruto.webp" alt="">
+                    <!-- <img  class="slide-single" src="midia/photo/chain.webp" alt="">
+                    <img  class="slide-single" src="midia/photo/tokyore.webp" alt="">
+                    <img  class="slide-single" src="midia/photo/vinland.webp" alt=""> -->
+                </div>
+
+                <div class="scrolling">
+                    <img class="arrow-prev" src="midia/arrow-prev.png" alt="">
+                    <img class="arrow-next" src="midia/arrow-next.png" alt="">
+                </div>
+            </section>
+
+            <section class="category">
+                <h2 class="container" style="font-size: 25px;font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;">Critically Acclaimed</h2>
+                <div class="slide">
+                    <img  class="slide-single" src="midia/photo/ozark.jpg" alt="">
+                    <img  class="slide-single" src="midia/photo/crown.jpg" alt="">
+                    <img  class="slide-single" src="midia/photo/umbrella.jpg" alt="">
+                    <img  class="slide-single" src="midia/photo/office.webp" alt="">
+                    <img  class="slide-single" src="midia/photo/squid.jpg" alt="">
+                    <!-- <img  class="slide-single" src="midia/photo/bb.webp" alt="">
+                    <img  class="slide-single" src="midia/photo/umbrella.jpg" alt="">
+                    <img  class="slide-single" src="midia/photo/locke.jpg" alt=""> -->
+                </div>
+
+                <div class="scrolling">
+                    <img class="arrow-prev" src="midia/arrow-prev.png" alt="">
+                    <img class="arrow-next" src="midia/arrow-next.png" alt="">
+                </div>
+            </section>
+
+
+            <footer class="container">
+                <div class="social">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-youtube"></i>
+                </div>
+        
+                <div class="info">
+                    <ul>
+                        <li>Audio Description</li>
+                        <li>Investor Relations</li>
+                        <li>Legal Notices</li>
+                    </ul>
+
+                    <ul>
+                        <li>Help Centre</li>
+                        <li>Jobs</li>
+                        <li>Cookie Preferances</li>
+                    </ul>
+
+                    <ul>
+                        <li>Gift Cards</li>
+                        <li>Terms Of Use</li>
+                        <li>Corporate Information</li>
+                    </ul>
+
+                    <ul>
+                        <li>Media Center</li>
+                        <li>Privacy</li>
+                        <li>Contact Us</li>
+                    </ul>
+                </div>
+
+                <div class="info-footer">
+                    <button>Service Code</button>
+
+                    <p>&copy; 1997-2023 Netflix, Inc.</p>
+                </div>
+            </footer>
+        </div>
+    </section>  
+</body>
+</html>
